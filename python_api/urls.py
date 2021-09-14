@@ -21,11 +21,11 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Snippets API",
+        title="Superalba API",
         default_version='v1',
         description="Documentacion de superalba ",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="emp"),
+        contact=openapi.Contact(email="emp9506@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
